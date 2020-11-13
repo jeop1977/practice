@@ -12,10 +12,10 @@ let arr2 = [];
           for(let b = 0; b < arrIn[i][a].length; b++){
             arr2.push(arrIn[i][a][b]);
           }
-        }
+        } else
         arr2.push(arrIn[i][a]);
       }
-    }
+    } else
     arr2.push(arrIn[i]);
   }
 
